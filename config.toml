@@ -15,13 +15,13 @@ pygmentCodeFences = true
 #googleAnalytics = "XXX"
 
 [Params]
-  subtitle = "Chimney Cleaning and Inspection Services"
+  subtitle = "Chimney Cleaning and Camera Inspections"
   logo = "img/avatar-icon.png"
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
-  rss = true
-  comments = true
+  rss = false
+  comments = false
 #  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
 
 #[[Params.bigimg]]
@@ -44,8 +44,8 @@ pygmentCodeFences = true
     weight = 1
 
 [[menu.main]]
-    name = "About"
-    url = "page/about/"
+    name = "Contact"
+    url = "page/contact/"
     weight = 3
 
 [[menu.main]]
