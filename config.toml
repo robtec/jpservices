@@ -1,4 +1,4 @@
-baseurl = "https://jpservices-static.pages.dev/"
+baseurl = "https://jpservices.ie/"
 contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
