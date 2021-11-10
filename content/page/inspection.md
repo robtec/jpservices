@@ -26,4 +26,4 @@ If so, we recommend a full camera inspection 👷 📸
 
 Once the inspection is complete, we will walk-through options on repairing the issue
 
-Findings from the inspection with be recorded for you 📀
+Findings from the inspection will be recorded for you 📀
