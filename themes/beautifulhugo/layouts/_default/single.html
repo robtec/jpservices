@@ -5,13 +5,9 @@
       <article role="main" class="blog-post">
         {{ .Content }}
       </article>
-
-      {{ if (.Params.comments) | or (and (or (not (isset .Params "comments")) (eq .Params.comments nil)) (.Site.Params.comments)) }}
-        {{ if .Site.DisqusShortname }}
-          <div class="disqus-comments">
-            {{ template "_internal/disqus.html" . }}
-          </div>
-        {{ end }}
+      
+      {{ if .Params.contactus }}
+        <a class="btn btn-success btn-block btn-lg" href="/contact" role="button">Contact Us</a>
       {{ end }}
 
     </div>

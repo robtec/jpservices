@@ -1,7 +1,7 @@
 ---
 title: Contact
 subtitle: JP Services
-comments: false
+type: page
 ---
 
 For free consultation and quotation, please feel free to Contact me via

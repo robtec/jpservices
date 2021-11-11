@@ -1,7 +1,8 @@
 ---
 title: Chimney Inspection
 subtitle: Having your Chimney Inspected with a Camera 📸
-comments: false
+type: page
+contactus: true
 ---
 
 ---
