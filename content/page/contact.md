@@ -6,5 +6,6 @@ comments: false
 
 For free consultation and quation, please feel free to Contact me via
 
-- 📧 john [at] jpservices.ie
-- 📞 087000000
+- 📧 john@jpservices.ie
+
+- 📞 087 9826650
