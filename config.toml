@@ -40,15 +40,15 @@ pygmentCodeFences = true
 
 [[menu.main]]
     name = "Sweep"
-    url = "page/sweep/"
+    url = "sweep/"
     weight = 1
 
 [[menu.main]]
     name = "Contact"
-    url = "page/contact/"
+    url = "contact/"
     weight = 3
 
 [[menu.main]]
-    url = "page/inspection/"
+    url = "inspection/"
     name = "Inspection"
     weight = 2

@@ -1,10 +1,11 @@
 ---
 title: Chimney Inspection
 subtitle: Having your Chimney Inspected with a Camera 📸
-comments: false
+type: page
+contactus: true
 ---
 
-### Intro
+---
 
 Chimneys will experience problems over there lifetime, from cracks to water ingress.
 
