@@ -11,7 +11,20 @@
           Click to Call <span class="glyphicon glyphicon-earphone" style="padding-left:10px; padding-right:10px;"></span>John
         </a>
       {{ end }}
-
+      {{ if .Params.callback }}
+        <form data-static-form-name="contact" class="form-group">
+          <div class="form-group">
+            <label for="nameInput">Name</label>
+            <input name="name" type="text" class="form-control" id="nameInput">
+          </div>
+          <div class="form-group">
+            <label for="numberInput">Contact Number</label>
+            <input type="email" class="form-control" id="numberInput" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your number with anyone else.</small>
+          </div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      {{ end }}
     </div>
   </div>
 </div>

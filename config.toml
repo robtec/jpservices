@@ -54,3 +54,8 @@ pygmentCodeFences = true
     url = "inspection/"
     name = "Inspection"
     weight = 2
+
+[[menu.main]]
+    url = "callback/"
+    name = "Call Back"
+    weight = 4
