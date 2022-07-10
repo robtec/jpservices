@@ -3,13 +3,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <!-- Site Title, Description, Author, and Favicon -->
-{{- with .Title | default .Site.Title }}
+{{- with .Site.Params.longtitle }}
   <title>{{ . }}</title>
   <meta property="og:title" content="{{ . }}" />
   <meta name="twitter:title" content="{{ . | truncate 70 }}" />
 {{- end }}
-  <meta name="description" content="Chimney Cleaning 🧹 Camera Inspection 📸 Sligo Mayo Roscommon Leitrim">
-  <meta property="og:description" content="Chimney Cleaning 🧹 Camera Inspection 📸 Sligo Mayo Roscommon Leitrim">
+{{- with .Site.Params.description }}
+  <meta name="description" content="{{ . }}">
+  <meta property="og:description" content="{{ . }}">
+{{- end }}
   <meta name="author" content="{{ .Site.Author.name }}"/>
 {{- with .Site.Params.favicon }}
   <link href='{{ . | absURL }}' rel='icon' type='image/x-icon'/>
