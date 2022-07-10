@@ -3,6 +3,7 @@ contentdir    = "content"
 layoutdir     = "layouts"
 publishdir    = "public"
 title = "JP Services"
+description = "Chimney Camera Inspection and Chimney Cleaning. Sligo Mayo Roscommon Leitrim"
 canonifyurls  = true
 
 DefaultContentLanguage = "en"
