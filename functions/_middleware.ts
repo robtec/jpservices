@@ -1,6 +1,6 @@
 import mailchannelsPlugin from "@cloudflare/pages-plugin-mailchannels";
 
-let content = "";
+let body = "";
 
 export const onRequest = mailchannelsPlugin({
   personalizations: [
@@ -16,7 +16,7 @@ export const onRequest = mailchannelsPlugin({
   subject: "Test Subject",
     content: [{
         "type": "text/plain",
-        "value": "Test message content\n\n" + content,
+        "value": "Test message content\n\n" + body,
     }],
   respondWith: () =>
     new Response(null, {
