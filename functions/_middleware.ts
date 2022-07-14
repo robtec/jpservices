@@ -1,7 +1,5 @@
 import mailchannelsPlugin from "@cloudflare/pages-plugin-mailchannels";
 
-let body = "";
-
 export const onRequest = mailchannelsPlugin({
   personalizations: [
     {
@@ -14,13 +12,13 @@ export const onRequest = mailchannelsPlugin({
   ],
   from: 
     {   
-        email: "website@jpservices.ie" 
+        email: "enquiries@jpservices.ie" 
     },
   subject: "Customer Enquiry",
   
-  respondWith: () => {
-  return new Response(
-    `Thank you for submitting your enquiry. A member of the team will be in touch shortly.`
-  );
-  },
+  respondWith: () =>
+    new Response(null, {
+      status: 302,
+      headers: { Location: "/thankyou" },
+    }),
 });
