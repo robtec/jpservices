@@ -14,9 +14,9 @@ export const onRequest = mailchannelsPlugin({
   ],
   from: 
     {   
-        email: "no-reply@jpservices.ie" 
+        email: "website@jpservices.ie" 
     },
-  subject: "Test Subject",
+  subject: "Customer Enquiry",
   
   respondWith: () => {
   return new Response(
