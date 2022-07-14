@@ -20,7 +20,7 @@ export const onRequest = mailchannelsPlugin({
   
   respondWith: () => {
   return new Response(
-    `Thank you for submitting your enquiry. A member of the team will be in touch shortly.\n Return to https://jpservices.ie`
+    `Thank you for submitting your enquiry. A member of the team will be in touch shortly.`
   );
   },
 });
