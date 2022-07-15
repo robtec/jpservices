@@ -702,3 +702,9 @@ input.gsc-input, .gsc-input-box, .gsc-input-box-hover, .gsc-input-box-focus, .gs
   box-sizing: content-box;
   line-height: normal;
 }
+
+.contact-field {
+  padding:5px;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
