@@ -9,22 +9,27 @@
 
 <url>
   <loc>https://jpservices.ie/</loc>
-  <lastmod>2022-07-10T19:21:59+00:00</lastmod>
+  <lastmod>2022-07-15T12:23:28+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://jpservices.ie/sweep/</loc>
-  <lastmod>2022-07-10T19:21:59+00:00</lastmod>
+  <lastmod>2022-07-15T12:23:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jpservices.ie/inspection/</loc>
-  <lastmod>2022-07-10T19:21:59+00:00</lastmod>
+  <lastmod>2022-07-15T12:23:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://jpservices.ie/contact/</loc>
-  <lastmod>2022-07-10T19:21:59+00:00</lastmod>
+  <lastmod>2022-07-15T12:23:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://jpservices.ie/callback/</loc>
+  <lastmod>2022-07-15T12:23:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
