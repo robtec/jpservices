@@ -6,9 +6,6 @@ export const onRequest = mailchannelsPlugin({
       to: [
             {   
                 email: "rob.p.tec@gmail.com" 
-            },
-            {
-                email: "john@jpservices.ie"
             }
         ],
     },
@@ -17,8 +14,6 @@ export const onRequest = mailchannelsPlugin({
     {   
         email: "enquiries@jpservices.ie" 
     },
-  subject: "Customer Enquiry",
-  
   respondWith: () =>
     new Response(null, {
       status: 302,
