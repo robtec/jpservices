@@ -5,7 +5,7 @@ export const onRequest = mailchannelsPlugin({
     {
       to: [
             {   
-                email: "rob.p.tec@gmail.com" 
+                email: "rob.p.tec@gmail.com"
             }
         ],
     },
