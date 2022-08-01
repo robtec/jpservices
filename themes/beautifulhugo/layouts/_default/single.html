@@ -5,8 +5,12 @@
       <article role="main" class="blog-post">
         {{ .Content }}
       </article>
-      
+      {{ if .Params.callbackbtn }}
+        <hr>
+        <a class="btn btn-success btn-block btn-lg" href="/callback" role="button">Request a Call Back</a>
+      {{ end }}
       {{ if .Params.contactus }}
+        <hr>
         <a class="btn btn-primary btn-block btn-lg" href="tel:0879826650">
           Click to Call <span class="glyphicon glyphicon-earphone" style="padding-left:10px; padding-right:10px;"></span>John
         </a>
